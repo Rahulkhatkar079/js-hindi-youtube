@@ -36,3 +36,14 @@ const myfunction = function () {
     console.log("hello world");
 }
 console.log(typeof BigNumber);//undefined
+
+
+
+
+
+
+
+// memory
+
+//stack(primitive),Heap(non-primitive)
+let myyoutubename = rahulkhatkar530
