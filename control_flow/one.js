@@ -29,3 +29,16 @@ if (score>100) {
 }
 //  console.log('User power: ${power}');
 
+
+const balance = 1000
+if (balance>500) {
+    console.log("less than 1200");
+}
+
+const userloggedIn = true 
+const debitCard = true
+
+if (userloggedIn && debitCard) {
+    console.log("Allow to buy course");
+    
+}
