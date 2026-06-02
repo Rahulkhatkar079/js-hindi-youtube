@@ -39,11 +39,11 @@ const userloggedIn = true
 const debitCard = true
 const loggedInFromGoogle = false
 const loggedInFromEmail = true
-if (userloggedIn && debitCard && 2==3) {
+if (userloggedIn && debitCard && 2==3) {//sari condition true honi chaiye
     console.log("Allow to buy course");
     
 }
-if (loggedInFromGoogle|| loggedInFromEmail) {
+if (loggedInFromGoogle|| loggedInFromEmail) {//koi ek true honi chaiye
     console.log("User logged in");
     
 }
