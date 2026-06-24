@@ -48,3 +48,28 @@ const myObject = {
     cpp: 'C++',
     rb: "ruby",
 }
+
+for (const key in myObject) {
+    
+    console.log(myObject[key]);
+    
+    
+}
+
+const programming = ["js","rb","py","java","cpp"]
+
+for (const key in programming) {
+    
+    console.log(key);
+    
+}
+   
+programming.forEach(function (item){
+    console.log(item);
+    
+})
+
+programming.forEach((item) =>{
+    console.log(item);
+    
+})
